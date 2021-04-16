@@ -1,1 +1,1 @@
-# sewol_contest_2021-final
+세월호 공모전 당선작 발표
