@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.ico">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>2021 Sewol Art, Digital Design, and Media Competition</title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/gaia.css" rel="stylesheet" />
+  <link href="assets/css/resources.css" rel="stylesheet" />
+
+  <!--     Fonts and icons     -->
+  <link href='https://fonts.googleapis.com/css?family=Cambo|Poppins:400,600' rel='stylesheet' type='text/css'>
+  <link href="https
+  ://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/51389e4e28.js" crossorigin="anonymous"></script>
+
+  <!-- Resources arrows -->
+  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" color-on-scroll="200">
+    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+    <div class="container">
+      <div class="navbar-header">
+        <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar bar1"></span>
+          <span class="icon-bar bar2"></span>
+          <span class="icon-bar bar3"></span>
+        </button>
+        <a href="공감 메인 홈피 주소" class="navbar-brand">
+        </a>
+        <img src="assets/img/gonggam_logo.png" href="#gaia" class="navbar-brand">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right navbar-uppercase">
+          <li>
+            <a href="mailto:oneheart4justice@gmail.com">CONTACT</a>
+          </li>
+          <!-- <li>
+            <a href="#resources">RESOURCES</a>
+          </li> -->
+          <!-- <li>
+            <a href="./index_en.html">ENGLISH</a> -->
+            <!-- <a href="https://kim-jeongyoung.github.io/sewol_contest_2021_English/#" target="_blank">English</a> -->
+          <!-- </li> -->
+          <li class="dropdown">
+            <a href="#gaia" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-share-alt"></i> Share
+            </a>
+            <ul class="dropdown-menu dropdown-danger">
+              <li>
+                <a href="https://www.facebook.com/1heart4justice" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/1heart4justice" target="_blank"><i class="fa fa-twitter"></i>Twitter</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/1heart4justice/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCj3O9hAJgMut6-16i32qTYA" target="_blank"><i class="fa fa-youtube"></i> Youtube
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="" class="btn btn-danger btn-fill">Top</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+  </nav>
+
+
+  <div class="section section-header">
+    <div class="parallax filter filter-color-blue">
+      <div class="image" style="background-image: url('assets/img/wave.jpg')">
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="title-area">
+            <h2>2021</h2>
+            <h1 class="title-modern">세월, 공감과 기억</h1>
+            <h2>온라인 공모전</h2>
+            <h1>수상자 명단</h1>
+
+            <div class="separator line-separator">♦</div>
+            <!-- <h5>세월호 참사 7주기를 맞이하여 희생자를 기억하고 참사의 의미를 되새기기 위해 공모전을 기획하였습니다.</h5> -->
+          </div>
+
+          <!-- <div class="button-get-started">
+            <a href="https://www.formpl.us/form/1931236001" class="btn btn-white btn-fill btn-lg " target="_blank">
+              대 상
+            </a>
+          </div> -->
+
+
+          <!-- countdown -->
+
+          <!-- <h3 id="demo"></h3>
+          <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("March 28, 2021 23:59:00").getTime();
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+              // Get today's date and time
+              var now = new Date().getTime();
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                minutes + "m " + seconds + "s ";
+              // If the count down is over, write some text
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+          // </script> -->
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="title-area">
+          <h2>대  상</h2>
+          <div class="separator separator-danger">✻</div>
+          <p class="description">
+            Casey Kim<br>
+            중고등부<br>
+            <a href="https://youtu.be/w07F6XVzrAY">
+              <strong>[작품명] Sewol 2021</strong></a><br>
+            </p>
+
+
+            <div class="vid-container">
+              <iframe id="vid_frame" width="560" height="315" src="https://www.youtube.com/embed/watch?v=w07F6XVzrAY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="section section-our-team-freebie">
+    <div class="parallax filter filter-color-blue">
+      <div class="image" style="background-image:url('assets/img/sea.jpg')">
+      </div>
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="title-area">
+              <h2>금 상</h2>
+              <div class="separator separator-danger">✻</div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="info-icon">
+                    <div class="icon text-danger">
+                      <i class="pe-7s-graph1"></i>
+                    </div>
+                    <h3>Annika Kim</h3>
+                    <p class="description"> 
+                      중고등부<br>
+                      <a href="https://www.youtube.com/watch?v=dnRUBfjVILA">
+                        <strong>[작품명] We Will Remember</strong></a><br>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="info-icon">
+                    <div class="icon text-danger">
+                      <i class="pe-7s-note2"></i>
+                    </div>
+                    <h3>Olivia Kim</h3>
+                    <!-- <div class="text-align"> -->
+                    <p class="description">
+                      초등부<br>
+                      <a href="https://drive.google.com/file/d/1HiW6HNlCQAuraZPTWauOgLPdX6ldM_f7/view">
+                      <strong>[작품명] I want to save them</strong></a><br>
+                      <!-- </div> -->
+                  </div>
+                </div>
+        
+                <div class="col-md-4">
+                  <div class="info-icon">
+                    <div class="icon text-danger">
+                      <i class="pe-7s-music"></i>
+                    </div>
+                    <h3>Seungmi Na</h3>
+                    <p class="description">
+                      성인부<br>
+                      <a href="https://drive.google.com/file/d/1VNYHd7GztBGcgTCBMwcZLHI93JA4Z1xi/view">
+                      <strong>[작품명] 4월의 꽃</strong></a><br>
+                    </p>
+        
+                  </div>
+                </div>
+              </div>
+
+              <!-- <p class="description"><em><strong>심사 기준 및 평가 방법: <br>공모 주제 적합성, 독창성, 작품성
+              </p> -->
+              <!-- </strong></em></p> -->
+            </div>
+          </div>
+
+          <div class="team">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <!-- <div class="col-md-4"> -->
+                    <div class="card card-member">
+                      <div class="content">
+                        <div class="avatar avatar-danger">
+                          <img alt="..." class="img-circle" src="assets/img/bubble_2.jpg" />
+                        </div>
+                        <div class="description">
+                          <h3 class="title">은 상</h3><br>
+                          <div class="text-align">
+                            <p class="small-text"></p>
+                            <p class="description"> 
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+
+                              <!-- <strong>파일형: </strong> JPG(JPEG), PDF <br>
+                              <strong>로고 사이즈: </strong>12 in X 12 in 또는 6 in X 6 in <br>
+                              ✻ 손으로 그린 그림을 스캔해서 제출할 경우 반드시 컬러로 제출해야 하며 화질이 선명해야 함. -->
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-lg-6">
+                    <!-- <div class="col-md-4"> -->
+                    <div class="card card-member">
+                      <div class="content">
+                        <div class="avatar avatar-danger">
+                          <img alt="..." class="img-circle" src="assets/img/bubble_1.jpg" />
+                        </div>
+                        <div class="description">
+                          <h3 class="title">동 상</h3>
+                          <div class="text-align">
+                            <p class="small-text"></p>
+                            <p class="description">
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                              <strong>Alecis Dayoung Kim</strong> <br> 
+                              중고등부 <br>
+                              <a href="https://drive.google.com/file/d/1fzWsP_P8Rh8529vinDr1ZL-Jxmc-DSlU/view"><strong>작품명:</strong> Remember the Sewol Ferry Webtoon</a><br>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="col-md-12">
+                    <div class="card card-member">
+                      <div class="content">
+                        <div class="avatar avatar-danger">
+                          <img alt="..." class="img-circle" src="assets/img/bubble_3.jpg" />
+                        </div>
+                        <div class="description">
+                          <h3 class="title">유의사항</h3>
+                          <div class="text-align">
+                            <p class="description">
+                              1명당 분야별 1점 제출 가능. (동일 분야에 중복 응모 불가) /
+                              일단 접수된 작품은 최종본으로 간주되며, 마감 전이라도 재접수는 불가함. /
+                              응모 작품은 반드시 제시된 규격에 맞아야 하며, 그렇지 않을 경우 심사 대상에서 제외될 수 있음. /
+                              응모 작품은 다른 곳에 응모 또는 발표되지 않은, 새로운 순수 창작물에 한정함. 모방, 표절, 대리 작성된 작품으로 밝혀질 경우 심사에서 제외되며, 수상이 취소됨. /
+                              응모 작품은 저작권에 문제가 없어야 함. 표절, 복제 등 저작권을 침해한 사실이 확인 될 경우 심사에서 제외되고 수상이 취소되며, 분쟁 발생 시 응모자가 전적으로 이에대한 책임을 져야함. /
+                              응모된 모든 작품은 수상여부와 관계없이 반환하지 않고, 출판·전시·교육·홍보 등 공익적 목적으로 이용할 수 있음. 이 경우 수상작을 있는 그대로 이용하는 것 이외 2차적 저작물로 작성하여 이용하는 것을 포함. /
+                              타인 명의의 응모 접수는 불가하며 반드시 본명으로 응모해야 함. /
+                              심사는 각 분야별 전문가들이 비공개로 익명으로 진행하며, 당선작이 없다고 판단될 경우 당선작을 선정하지 않을 수 있음.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- <div class="section section-our-clients-freebie">
+    <div class="container">
+      <div class="title-area">
+        <h5 class="subtitle text-gray">One Heart for Justice</h5>
+        <h2>샌프란시스코 공감</h2>
+        <div class="separator separator-danger">∎</div>
+      </div>
+
+      <ul class="nav nav-text" role="tablist">
+        <li class="active">
+          <a href="#testimonial1" role="tab" data-toggle="tab">
+            <div class="image-clients">
+              <img alt="..." class="img-circle" src="assets/img/ship.jpg" />
+              <br><br>
+              <h6>주최</h6>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#testimonial2" role="tab" data-toggle="tab">
+            <div class="image-clients">
+              <img alt="..." class="img-circle" src="assets/img/picyellowribon.jpg" />
+              <br><br>
+              <h6>개요</h6>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#testimonial3" role="tab" data-toggle="tab">
+            <div class="image-clients">
+              <img alt="..." class="img-circle" src="assets/img/416bench.jpg" />
+            </div>
+            <br>세월호 기억 벤치<br>
+            <h6></h6>
+
+          </a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+
+        <div class="tab-pane active" id="testimonial1">
+          <p class="description">
+            San Francisco "공감" (One Heart for Justice)은 사회 전반에 걸친 안전 시스템 확충, 사회적 약자들의 인권 등의 문제로 관심의 영역을 넓혀 나가면서, 사회 정의 실현과 보다 나은 미래를 만들어 가기 위해 함께 고민하고 공감하며 작은 실천을 통해 변화를 만들고자 2019년에는 주 캘리포니아에 정식 비영리단체로 501(c)(3) 등록하고 활동하고 있습니다.
+          </p>
+          </p>
+        </div>
+        <div class="tab-pane " id="testimonial2">
+          <p class="description">
+            ‘샌프란시스코 공감’은 세월호 참사 7주기를 맞이하여 희생자들을 추모하며, 세월호 참사를 기억하고, 미국인/재외국민의 시각에서 바라보는 세월호 참사와 그 의미(개인적 또는 사회적)에 대해 알아보는 기회로 삼고자 영상 공모전을 기획하였습니다.
+          </p>
+        </div>
+        <div class="tab-pane" id="testimonial3">
+          <p class="description">‘샌프란시스코 공감’은 4.16 재단의 기억과 약속 공모사업으로 세월호 참사를 잊지 않기 위한 '기억 벤치'를 북 캘리포니아 '팔로알토 미췔파크'에 2019년 설치하였습니다.
+            이 벤치는 잠시 쉬어가는 사람들에게 세월호 참사를 알리고 따뜻하게 안아주는 휴식의 공간이 될 것입니다.</p>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Resources -->
+
+  <!-- <div id="resources" class="section section-our-team-freebie">
+    <div class="parallax filter filter-color-blue">
+      <div class="image" style="background-image:url('assets/img/cloud.jpg')">
+      </div>
+      <div class="container">
+        <div class="content">
+
+          <div class="title-area">
+            <h2>참고 자료</h2>
+            <div class="separator separator-danger">✻</div>
+            <p class="description">416 교육 콘텐츠</p>
+            <div class="vid-container">
+              <iframe id="vid_frame" width="560" height="315" src="https://www.youtube.com/embed/eXWdPZx4yNA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="vid-list-container">
+              <div class="vid-list">
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/eXWdPZx4yNA?autoplay=1'">
+                  <div class="thumb">
+                    <img src="https://img.youtube.com/vi/eXWdPZx4yNA/0.jpg" alt="416 교육 콘텐츠" />
+                  </div>
+                  <div class="desc">
+                    416 애니메이션형 교육콘텐츠 1편 그날의 기억 eng
+                  </div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/Dsd0aA3DK9c?autoplay=1'">
+                  <div class="thumb">
+                    <img src="https://img.youtube.com/vi/Dsd0aA3DK9c/0.jpg" alt="" />
+                  </div>
+                  <div class="desc">
+                    416 애니메이션형 교육콘텐츠 2편 못다한 꿈 eng
+                  </div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/A8SkKgk174Q?autoplay=1'">
+                  <div class="thumb">
+                    <img src="https://img.youtube.com/vi/A8SkKgk174Q/0.jpg">
+                  </div>
+                  <div class="desc">
+                    416 드라마형 교육콘텐츠 1편 그날의 기억 eng
+                  </div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/JsP5CfvzjaA?autoplay=1'">
+                  <div class="thumb">
+                    <img src="https://img.youtube.com/vi/JsP5CfvzjaA/0.jpg">
+                  </div>
+                  <div class="desc">
+                    416 드라마형 교육콘텐츠 2편 못다한 꿈 eng
+                  </div>
+                </div>
+
+                <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/_Ww6tr0Dijg?autoplay=1'">
+                  <div class="thumb">
+                    <img src="https://img.youtube.com/vi/_Ww6tr0Dijg/0.jpg">
+                  </div>
+                  <div class="desc">
+                    416 드라마형 교육콘텐츠 3편 아직 끝나지 않은 세월호 참사 이야기 eng
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="arrows">
+            <div class="arrow-left">
+              <i class="fa fa-chevron-left fa-lg"></i>
+            </div>
+            <div class="arrow-right">
+              <i class="fa fa-chevron-right fa-lg"></i>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div> -->
+
+  <div class="section section-small section-get-started">
+    <!-- <div class="parallax filter">
+      <div class="image" style="background-image: url('assets/img/sewol32017.jpg')">
+      </div> -->
+
+    <div class="container">
+      <div class="title-area">
+        <!-- <h2 class="text-black">심사위원</h2> -->
+        <!-- <div class="separator line-separator">♦</div> -->
+        <p class="description">
+          <!-- 김종기 4.16 세월호참사가족협의회 <br>
+          김순길 4.16 세월호참사가족협의회 <br>
+          윤경희 4.16 세월호참사가족협의회 <br>
+          한홍덕 4.16 세월호참사가족협의회 <br>
+          정상진 DMZ 국제다큐멘터리영화제 집행위원장 <br>
+          임성빈 샌프란시스코 공감 <br>
+          이수미 샌프란시스코 공감<br>
+        </p> -->
+      </div>
+
+      <div class="button-get-started">
+        <a href="mailto:oneheart4justice@gmail.com" class="btn btn-danger btn-fill btn-lg" target="_blank">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <footer class="footer footer-big footer-color-black" data-color="black">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div class="info">
+            <h5 class="title"> Help and Support</h5>
+
+            <nav>
+              <ul>
+                <li>Email: oneheart4justice@gmail.com</li>
+                <!-- <ul>
+                <li>
+                  <a href="mailto:oneheart4justice@gmail.com">Contact Us</a>
+                </li> -->
+                <li>
+                  <!-- <a href="#">Terms &amp; Conditions</a> -->
+                </li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6">
+          <div class="info">
+            <h5 class="title">Follow us on</h5>
+            <nav>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/1heart4justice" target="_blank">
+                    <i class="fa fa-facebook-square"></i> Facebook
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/1heart4justice" target="_blank">
+                    <i class="fa fa-twitter"></i> Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCj3O9hAJgMut6-16i32qTYA" target="_blank">
+                    <i class="fa fa-youtube"></i> Youtube
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/1heart4justice/" target="_blank">
+                    <i class="fa fa-instagram"></i> Instagram
+
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <div class="copyright">
+        © <script>
+          document.write(new Date().getFullYear())
+        </script> Copyright One Heart For Justice
+      </div>
+    </div>
+  </footer>
+
+  <!-- Resources Arrow funtion js -->
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".arrow-right").bind("click", function(event) {
+        event.preventDefault();
+        $(".vid-list-container").stop().animate({
+          scrollLeft: "+=336"
+        }, 750);
+      });
+      $(".arrow-left").bind("click", function(event) {
+        event.preventDefault();
+        $(".vid-list-container").stop().animate({
+          scrollLeft: "-=336"
+        }, 750);
+      });
+    });
+  </script>
+
+</body>
+
+<!--   core js files    -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+<!--  script for google maps   -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/js/gaia.js"></script>
+
+<!-- Resources  -->
+<!-- <script type="text/javascript src=" assetss/js/resources.js"> </script> -->
+
+
+</html>
